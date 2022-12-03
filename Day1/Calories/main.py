@@ -12,7 +12,6 @@ with open('input.txt') as input_file:
             i+=1
             temp = 0
 
-print(elfs)
 max_keys = [key for key, value in elfs.items() if value == max(elfs.values())]
 
 print("Elfs with most calories are:")
